@@ -1,1 +1,123 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import "tailwindcss";
+@layer 
+base
+ {
+  *, *::before, *::after {
+    
+box-sizing
+: border-box;
+  }
+
+  * {
+    
+margin
+: 0;
+    
+padding
+: 0;
+    
+box-sizing
+: border-box;
+  }
+
+  html {
+    
+font-family
+: 'Poppins', sans-serif;
+    /* color: #333; */
+  }
+}
+
+.botao-roxo1 {
+  @apply
+  px-5
+  border-2
+  rounded-2xl
+  transition
+  duration-300
+  cursor-pointer
+  border-violet-700
+  hover:bg-violet-700 
+  hover:text-white
+    text-violet-700 font-bold py-2 px-4 rounded;
+}
+
+.botao-roxo2 {
+  @apply
+  px-10
+  rounded-2xl
+  transition
+  duration-300
+  cursor-pointer
+  text-violet-700 font-bold py-2 px-4 rounded
+  bg-teal-300
+  hover:bg-violet-700
+  hover:text-white
+}
+
+.botao-roxo3 {
+  @apply
+  px-10
+  rounded-2xl
+  transition
+  duration-300
+  cursor-pointer
+  
+  text-violet-700 font-bold py-2 px-4 rounded
+  bg-white
+  hover:bg-teal-300
+  hover:text-violet-700
+}
+
+.subtitulos {
+  @apply
+  text-2xl
+  sm:text-5xl 
+  font-bold
+  mt-14
+  md:text-5xl      /* A partir de 768px */
+  lg:text-6xl
+  text-white
+}
+
+.subtitulos-roxo {
+  @apply
+  text-2xl
+  sm:text-5xl 
+  font-bold
+  mt-14
+  md:text-5xl      /* A partir de 768px */
+  lg:text-6xl     /* A partir de 1024px */
+  text-violet-700
+}
+
+.subtitle-about{
+  @apply
+  text-3xl
+  
+  text-white
+}
+
+.card-habilidades{ 
+  @apply
+  bg-teal-300 
+  w-40 
+  h-36 
+  border-b-8 
+  rounded-4xl
+  border-violet-700 
+  flex 
+  flex-col 
+  justify-center 
+  items-center
+  hover:bg-white 
+}
+
+.card-habilidades-conteudo{
+  @apply
+  text-violet-700
+  text-sm 
+  mb-2
+  
+}

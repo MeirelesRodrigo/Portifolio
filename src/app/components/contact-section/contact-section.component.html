@@ -1,0 +1,43 @@
+<section class="flex flex-col text-center bg-violet-700 px-4 py-10">
+  <!-- Título -->
+  <div>
+    <p class="text-white text-3xl">Fale Comigo</p>
+
+    <!-- Ícones sociais -->
+    <div class="mt-4 flex justify-center gap-4">
+      <a href="">
+        <fa-icon [icon]="faLinkedin" class="text-5xl text-white"></fa-icon>
+      </a>
+      <a href="">
+        <fa-icon [icon]="faInstagram" class="text-5xl text-white"></fa-icon>
+      </a>
+    </div>
+  </div>
+
+  <!-- Contatos -->
+  <div class="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 mt-10 text-white text-center md:text-left">
+    <!-- WhatsApp -->
+    <div class="text-center">
+      <fa-icon [icon]="faWhatsapp" class="text-5xl mb-3"></fa-icon>
+      <p class="text-2xl">CHAMADA OU WHATSAPP</p>
+      <p class="text-2xl mt-2">(92) 9 8404-8451</p>
+      <a href="https://w.app/q6k4tz" target="_blank">
+        <button class="botao-roxo3 mt-3">WHATSAPP</button>
+      </a>
+    </div>
+
+    <!-- Email -->
+    <div class="text-center">
+      <fa-icon [icon]="faEnvelope" class="text-5xl mb-3"></fa-icon>
+      <p class="text-2xl">ENVIE UM E-MAIL</p>
+      <a href="mailto:meireles.rsilva22@gmail.com" class="text-2xl mt-2 block">meireles.rsilva22&#64;gmail.com</a>
+    </div>
+
+    <!-- Localização -->
+    <div class="text-center">
+      <fa-icon [icon]="faMapPin" class="text-5xl mb-3"></fa-icon>
+      <p class="text-2xl">Cascavel</p>
+      <p class="text-2xl mt-2">Paraná - BR</p>
+    </div>
+  </div>
+</section>
