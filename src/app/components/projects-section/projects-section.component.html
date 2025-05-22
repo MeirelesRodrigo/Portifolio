@@ -1,18 +1,18 @@
-<section  class="bg-violet-700 px-4 min-h-screen flex items-center justify-center mt-0 lg:-mt-30 pb-10">
+<section class="bg-violet-700 px-4 min-h-screen flex items-center justify-center mt-0 pb-10">
   <div class="text-center">
-    <p class="subtitulos mb-10">Projetos</p>
+    <p class="text-white text-3xl mb-10 mt-10">Projetos</p>
 
     <div class="flex flex-col lg:flex-row justify-center items-center gap-8 p-6 rounded-2xl bg-white">
-      
+
       <!-- Container com troca de imagem ao hover -->
       <div class="relative group w-80 h-60 rounded-2xl overflow-hidden">
         <!-- Imagem padrão -->
-        <img src="img/fisiodata.png" 
-             class="w-full h-full object-cover block group-hover:opacity-0 transition-opacity duration-300" />
+        <img src="img/fisiodata.png"
+          class="w-full h-full object-cover block group-hover:opacity-0 transition-opacity duration-300" />
 
         <!-- Imagem ao hover -->
-        <img src="img/grafico.png" 
-             class="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <img src="img/grafico.png"
+          class="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
 
       <!-- Texto ao lado da imagem -->
@@ -24,7 +24,49 @@
           automatizada de relatórios personalizados, otimizando o acompanhamento dos tratamentos e a tomada de
           decisões estratégicas.
         </p>
+        <div class="flex gap-4 mb-2">
+          <fa-icon [icon]="faAngular" class="text-2xl text-violet-700"></fa-icon>
+          <img class="w-[24px] h-[24px]" src="img/ts.png">
+          <fa-icon [icon]="faHtml5" class="text-2xl text-violet-700"></fa-icon>
+          <img class="w-[24px] h-[24px]" src="img/tailwind.png">
+
+        </div>
         <a href="https://fisio-data.web.app/" target="_blank">
+          <button class="botao-roxo2">Acesse o Projeto</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-8 p-6 mt-10 rounded-2xl bg-white">
+
+      <!-- Container com troca de imagem ao hover -->
+      <div class="relative group w-80 h-60 rounded-2xl overflow-hidden">
+        <!-- Imagem padrão -->
+        <img src="img/burguer1.png"
+          class="w-full h-full object-cover block group-hover:opacity-0 transition-opacity duration-300" />
+
+        <!-- Imagem ao hover -->
+        <img src="img/burguer2.png"
+          class="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+
+      <!-- Texto ao lado da imagem -->
+      <div class="max-w-lg text-left">
+        <h3 class="text-2xl italic justify-center text-center">Buguer do Chefão</h3>
+        <p class="mb-4 text-justify">
+          Burger do Chefão é um site responsivo desenvolvido com HTML, CSS e JavaScript, focado na apresentação de
+          produtos e na geração de pedidos via WhatsApp para uma hamburgueria. O projeto destaca boas práticas de
+          desenvolvimento web, design responsivo e integração de funcionalidades que facilitam o contato e aumentam as
+          conversões.
+        </p>
+        <div class="flex gap-4 mb-2">
+          <fa-icon [icon]="faAngular" class="text-2xl text-violet-700"></fa-icon>
+          <img class="w-[24px] h-[24px]" src="img/ts.png">
+          <fa-icon [icon]="faHtml5" class="text-2xl text-violet-700"></fa-icon>
+          <img class="w-[24px] h-[24px]" src="img/tailwind.png">
+
+        </div>
+        <a href="https://chefao-burguer.web.app/" target="_blank">
           <button class="botao-roxo2">Acesse o Projeto</button>
         </a>
       </div>

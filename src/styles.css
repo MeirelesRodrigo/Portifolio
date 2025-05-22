@@ -94,7 +94,7 @@ font-family
 
 .subtitle-about{
   @apply
-  text-3xl
+  text-2xl
   
   text-white
 }
